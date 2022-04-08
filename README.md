@@ -2,3 +2,5 @@
 
 ## Sobre o projeto
 Criar um gerador de senhas, que não deixe repetir carácteres 100% em js vanilla de maneira mais simples.
+
+![Gif do app](./gif/a.gif)
