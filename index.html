@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+
+    <div class="header">
+      <h1 class="title">Password Generate</h1>
+      <span class="sub-title">Escolha o tamanho da sua senha e gere uma aleatória</span>
+    </div>
+
+    <div class="container">
+      <div class="viewWrapper">
+        <div class="view">
+          <p id="view-text" />
+        </div>
+        <button id="copy" onclick="copyButton()">Copie</button>
+      </div>
+
+      <div class="inputContainer">
+        <div class="inputWrapper">
+          <input type="radio" id="eight" name="lengthPassword" value="8" checked>
+          <label for="eight">8</label>
+        </div>
+
+        <div class="inputWrapper">
+          <input type="radio" id="sixteen" name="lengthPassword" value="16">
+          <label for="sixteen">16</label>
+        </div>
+
+        <div class="inputWrapper">
+          <input type="radio" id="twenty-four" name="lengthPassword" value="24">
+          <label for="twenty-four">24</label>
+        </div>
+
+        <div class="inputWrapper">
+          <input type="radio" id="thirty-two" name="lengthPassword" value="32">
+          <label for="thirty-two">32</label>
+        </div>
+      </div>
+      <button class="passwordGenerateBtn" onclick="pushPassword()">Create</button>
+    </div>
+  </section>
+
+  <script src="main.js" />
+</body>
+
+</html>

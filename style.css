@@ -1,0 +1,114 @@
+* {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #17181f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 50vw;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .title{
+  font-size: 28px;
+  border-bottom: 1px solid #fff;
+  display: block;
+}
+
+.header .sub-title {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewWrapper {
+  display: flex;
+}
+
+.viewWrapper .view {
+  width: 18rem;
+  height: 3.2rem;
+  background-color: #fff;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view #view-text {
+  font-size: 16px;
+}
+.viewWrapper #copy {
+  width: 4.3rem;
+  right: -10;
+  background-color: #fff;
+  border-style: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.viewWrapper #copy:hover {
+  font-weight: 700;
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.inputContainer {
+  display: flex;
+  width: 15rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.inputContainer .inputWrapper input {
+  cursor: pointer;
+}
+
+.inputContainer .inputWrapper label {
+  color: #fff;
+}
+
+.passwordGenerateBtn {
+  margin-top: 1.5rem;
+  width: 8rem;
+  height: 2.6rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.passwordGenerateBtn:hover {
+  font-weight: 700;
+  background-color: #f1f1fe;
+  transition: 0.3s;
+}
